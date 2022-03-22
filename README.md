@@ -26,7 +26,7 @@ The goal is that this can be done using either Docker Compose or Kubernetes. How
 > ```
 > chmod 0600 celestia-node/full/*/nodekey* && \
 > chmod 0600 celestia-node/light/*/nodekey* && \
-> chmod 0600 dalc/celestia-app/celestia-light-keys
+> chmod 0600 dalc/celestia-light/keys/*
 > ```
 > This is done for you if you utilize the `start-docker-cluster.sh` script
 
